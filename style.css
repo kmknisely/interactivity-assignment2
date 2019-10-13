@@ -8,6 +8,27 @@ License: Open
 Text Domain: web_interactivity_blank_template
 */
 
+/*-------------------------
+
+Header
+
+--------------------------*/
+
+.jumbotron {
+  background-size: cover;
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.site-title{
+  color: white;
+}
+
+
+
+
+
 .post-featured-image img{
    max-width: 225px;
    object-fit: contain;

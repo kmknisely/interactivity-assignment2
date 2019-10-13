@@ -14,8 +14,8 @@ function custom_theme_scripts() {
 add_action('wp_enqueue_scripts','custom_theme_scripts');
 
 $custom_image_header = array(
-  'width' => 225,
-  'height' => 120,
+  'width' => 2000,
+  'height' => 300,
   'uploads' => true,
 );
 

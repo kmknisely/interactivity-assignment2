@@ -11,7 +11,7 @@
         <div class="col-md-3">
           <h3 class="title"> <?php the_title(); ?></h3>
 
-          <div class="post_featured_image">
+          <div class="post-featured-image">
             <?php the_post_thumbnail('medium');?>
           </div>
 

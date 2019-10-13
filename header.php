@@ -8,12 +8,12 @@
   </head>
 
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-3">
-          <header>
-            <h1> <a href="<?php get_home_url();?>"> <?php bloginfo('name');?> </a></h1>
-          </header>
+    <header>
+      <div class="jumbotron jumbotron-fluid" style="background-image: url(<?php header_image();?>)">
+        <div class="container">
+          <div class="row">
+            <h1> <a class = "site-title" href="<?php get_home_url();?>"> <?php bloginfo('name');?> </a></h1>
+          </div>
         </div>
       </div>
-    </div>
+    </header>
