@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8"/>
     <title><?php bloginfo('name'); ?> </title>
+    <!--Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,900&display=swap" rel="stylesheet">
+    <!--Css Link -->
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" />
     <?php wp_head();?>
   </head>

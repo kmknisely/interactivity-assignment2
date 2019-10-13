@@ -8,6 +8,10 @@ License: Open
 Text Domain: web_interactivity_blank_template
 */
 
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
 /*-------------------------
 
 Header
@@ -23,13 +27,30 @@ Header
 
 .site-title{
   color: white;
+  font-weight: 900;
+  font-size: 5rem;
 }
 
 
+/*-------------------------
 
+Homepage Content
 
+--------------------------*/
 
 .post-featured-image img{
    max-width: 225px;
    object-fit: contain;
+}
+
+.title{
+  font-weight: 700;
+}
+
+.itals {
+  font-style: italic;
+}
+
+.col-md-4{
+  margin: 0 0 60px 0;
 }
