@@ -7,3 +7,8 @@ Version: 0.1
 License: Open
 Text Domain: web_interactivity_blank_template
 */
+
+.post-featured-image img{
+   max-width: 225px;
+   object-fit: contain;
+}

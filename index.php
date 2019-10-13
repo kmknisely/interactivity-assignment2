@@ -11,6 +11,10 @@
         <div class="col-md-3">
           <h3 class="title"> <?php the_title(); ?></h3>
 
+          <div class="post_featured_image">
+            <?php the_post_thumbnail('medium');?>
+          </div>
+
           <p> <?php echo "Published: " . get_the_date();?> </p>
           <p> <?php echo "Written By: ". get_the_author(); ?> </p>
           <p> <?php the_excerpt();?> </p>

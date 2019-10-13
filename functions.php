@@ -19,7 +19,12 @@ $custom_image_header = array(
   'uploads' => true,
 );
 
+//Add Header
 add_theme_support('custom-header', $custom_image_header);
+
+//Add Featured Image
+add_theme_support('post-thumbnails');
+
 
 
 
