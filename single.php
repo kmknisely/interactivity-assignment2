@@ -10,12 +10,13 @@
               the_post();
         ?>
 
-              <h2 class="entry_title"> <?php the_title();?></h2>
-              <p class="post_information"> <?php echo "<span class='bold'>Published </span>" . get_the_date(); echo " | "; echo "<span class='bold'>Written By </span>" . get_the_author(); ?></p>
+              <h2 class="entry-title"> <?php the_title();?></h2>
 
-              <div class="single_post_featured_image"> <?php the_post_thumbnail("large");?>
+              <p class="post-information"> <?php echo "<span class='bold'>Published </span>" . get_the_date(); echo " | "; echo "<span class='bold'>Written By </span>" . get_the_author(); ?></p>
 
-              <?php the_content();?>
+              <div class="single-post-featured-image"> <?php the_post_thumbnail("large");?>
+
+              <div class="content"> <?php the_content();?> </div>
 
         <?php
             }//end of while loop
