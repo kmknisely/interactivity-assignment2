@@ -29,6 +29,13 @@ Header
   color: white;
   font-weight: 900;
   font-size: 5rem;
+  transition: .3s;
+}
+
+.site-title:hover{
+  color: #dfeedf;
+  transition: .3s;
+  text-decoration: none;
 }
 
 
@@ -57,6 +64,21 @@ Homepage Content
   margin: 0 0 60px 0;
 }
 
+.btn-primary{
+  background-color: #63AB62;
+  border-color: #63AB62;
+}
+
+.btn-primary:hover {
+  background-color: #3D8B37;
+  border-color: #3D8B37;
+}
+
+.btn-primary:focus{
+  background-color: #3D8B37;
+  border-color: #3D8B37;
+}
+
 /*-------------------------
 
 Single Post Content
@@ -83,4 +105,15 @@ Single Post Content
 
 .content{
   margin: 50px 0 0 0;
+}
+
+/*-------------------------
+
+Footer
+
+--------------------------*/
+
+.footer-text{
+  font-style: italic;
+  color: darkgray;
 }
