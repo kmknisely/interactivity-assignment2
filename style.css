@@ -43,6 +43,25 @@ nav{
   text-align: center;
 }
 
+nav ul li {
+  list-style: none;
+  display: inline;
+}
+
+nav ul li a{
+  color: lightgray;
+  transition: .3s;
+  padding: 0 20px;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+nav ul li a:hover{
+  color: darkgray;
+  transition: .3s;
+  text-decoration: none;
+}
+
 
 /*-------------------------
 

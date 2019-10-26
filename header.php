@@ -27,7 +27,7 @@
       <!-- Menu -->
       <div class="container">
         <div class="row justify-content-center align-items-center">
-          <div class="col-md-8">
+          <div class="col-md-12">
             <nav>
               <?php
               if(has_nav_menu('top-menu')){
