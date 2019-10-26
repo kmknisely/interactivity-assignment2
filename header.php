@@ -12,6 +12,8 @@
 
   <body>
     <header>
+
+      <!-- Header Image on top of page -->
       <div class="jumbotron jumbotron-fluid" style="background-image: url(<?php header_image();?>)">
         <div class="container">
           <div class="row">
@@ -22,7 +24,23 @@
         </div>
       </div>
 
-      <div>
-
-      </div> 
+      <!-- Menu -->
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-8">
+            <nav>
+              <?php
+              if(has_nav_menu('top-menu')){
+                wp_nav_menu(array(
+                  'theme_location'  => 'top-menu',
+                  'container_class' => 'top-menu-class'
+                ));
+              } else{
+                echo'Please select a top menu through the dashboard';
+              }
+              ?>
+            </nav>
+          </div>
+        </div>
+      </div>
     </header>

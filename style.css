@@ -29,6 +29,7 @@ Header
   color: white;
   font-weight: 900;
   font-size: 5rem;
+  text-shadow: 2px 2px 8px #000000;
   transition: .3s;
 }
 
@@ -36,6 +37,10 @@ Header
   color: #dfeedf;
   transition: .3s;
   text-decoration: none;
+}
+
+nav{
+  text-align: center;
 }
 
 
