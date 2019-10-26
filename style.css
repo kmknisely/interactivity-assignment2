@@ -137,8 +137,17 @@ Footer
 
 --------------------------*/
 
-.footer-text{
-  font-style: italic;
-  color: darkgray;
-  margin: 50px 0;
+footer {
+  background-color: lightgray;
+  color: gray;
+}
+
+footer a{
+  color: dimgray;
+}
+
+footer a:hover {
+  color: black;
+  transition: .3s;
+  text-decoration: none;
 }

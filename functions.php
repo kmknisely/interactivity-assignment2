@@ -102,6 +102,36 @@ function blank_widgets_init(){
     'before_title'  => '<h3 class="left-sidebar-widget-title">',
     'after_title'   => '</h3>',
   ));
+  //Footer left
+  register_sidebar(array(
+    'name'          => ('Footer Left'),
+    'id'            => 'footer-left',
+    'description'   => 'Left section of the footer',
+    'before_widget' => '<div class="footer-left">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="footer-left-widget-title">',
+    'after_title'   => '</h3>',
+  ));
+  //Footer middle
+  register_sidebar(array(
+    'name'          => ('Footer Middle'),
+    'id'            => 'footer-middle',
+    'description'   => 'Middle section of the footer',
+    'before_widget' => '<div class="footer-middle">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="footer-middle-widget-title">',
+    'after_title'   => '</h3>',
+  ));
+  //Footer right
+  register_sidebar(array(
+    'name'          => ('Footer Right'),
+    'id'            => 'footer-right',
+    'description'   => 'Right section of the footer',
+    'before_widget' => '<div class="footer-right">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="footer-right-widget-title">',
+    'after_title'   => '</h3>',
+  ));
 
 
 }
