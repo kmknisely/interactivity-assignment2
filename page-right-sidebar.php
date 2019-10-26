@@ -1,9 +1,18 @@
+<?php
+/*
+Template Name: Right Sidebar Page Layout
+Template Post Type: page, post
+*/
+?>
+
+
+
 <?php get_header(); ?>
 
 <div class=container>
     <div class="row">
-      <main class="col-md-12">
-        <!--Wordpress loop goes in and grabs the post data. If you want to do anything with posts, you need to use the loop, just fyi -->
+      <main class="col-md-9">
+        <!--Wordpress loop goes in and grabs the page data. If you want to do anything with page, you need to use the loop, just fyi -->
         <?php
           if(have_posts()){
             while(have_posts()){
@@ -21,6 +30,11 @@
           }//end of if statement
         ?>
       </main>
+
+
+      <aside class="col-md-">
+        <?php get_sidebar(); ?>
+      </aside>
     </div>
 </div>
 

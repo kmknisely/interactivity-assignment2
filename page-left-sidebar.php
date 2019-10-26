@@ -1,9 +1,24 @@
+<?php
+/*
+Template Name: Left Sidebar Page Layout
+Template Post Type: page, post
+*/
+?>
+
+
+
 <?php get_header(); ?>
 
 <div class=container>
     <div class="row">
-      <main class="col-md-12">
-        <!--Wordpress loop goes in and grabs the post data. If you want to do anything with posts, you need to use the loop, just fyi -->
+
+      <aside class="col-md-3">
+        <?php get_sidebar(); ?>
+      </aside>
+
+
+      <main class="col-md-9">
+        <!--Wordpress loop goes in and grabs the page data. If you want to do anything with page, you need to use the loop, just fyi -->
         <?php
           if(have_posts()){
             while(have_posts()){
@@ -21,6 +36,7 @@
           }//end of if statement
         ?>
       </main>
+
     </div>
 </div>
 
