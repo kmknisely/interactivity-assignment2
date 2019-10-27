@@ -11,7 +11,7 @@ Template Post Type: page, post
 
 <div class=container>
     <div class="row">
-      <main class="col-md-9">
+      <main class="col-md-8">
         <!--Wordpress loop goes in and grabs the page data. If you want to do anything with page, you need to use the loop, just fyi -->
         <?php
           if(have_posts()){
@@ -32,7 +32,7 @@ Template Post Type: page, post
       </main>
 
 
-      <aside class="col-md-">
+      <aside class="col-md-4">
         <?php get_sidebar(); ?>
       </aside>
     </div>
