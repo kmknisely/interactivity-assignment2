@@ -12,6 +12,10 @@ Text Domain: web_interactivity_blank_template
 body{
   font-family: 'Roboto', sans-serif;
 }
+
+h3, h2{
+  font-weight: 900;
+}
 /*-------------------------
 
 Header
@@ -84,10 +88,6 @@ Homepage Content
   line-height: .5rem;
 }
 
-.col-md-4{
-  margin: 0 0 60px 0;
-}
-
 .btn-primary{
   background-color: #63AB62;
   border-color: #63AB62;
@@ -139,7 +139,13 @@ Footer
 
 footer {
   background-color: lightgray;
-  color: gray;
+  color: dimgray;
+  padding: 20px 0;
+  margin: 20px 0 0 0;
+}
+
+footer ul li {
+  list-style: none;
 }
 
 footer a{
