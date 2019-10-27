@@ -45,6 +45,7 @@ Header
 
 nav{
   text-align: center;
+  margin: 0 0 50px 0;
 }
 
 nav ul li {
@@ -53,7 +54,7 @@ nav ul li {
 }
 
 nav ul li a{
-  color: lightgray;
+  color: darkgray;
   transition: .3s;
   padding: 0 20px;
   font-size: 1.5rem;
@@ -61,7 +62,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-  color: darkgray;
+  color: gray;
   transition: .3s;
   text-decoration: none;
 }
@@ -137,7 +138,22 @@ Single Post Content
 --------------------------*/
 
 .error{
-  margin: 100px 0; 
+  margin: 100px 0;
+}
+
+
+/*-------------------------
+
+Sidebar
+
+--------------------------*/
+
+.widget-right-sidebar {
+  color: gray;
+  font-size: .85rem;
+  padding: 20px;
+  background-color: #dfeedf;
+
 }
 
 /*-------------------------
