@@ -18,7 +18,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <h1> <a class = "site-title" href=""<?php echo home_url('/');?>""> <?php bloginfo('name');?> </a></h1>
+              <h1> <a class = "site-title" href="<?php echo home_url('/');?>"> <?php bloginfo('name');?> </a></h1>
             </div>
           </div>
         </div>
